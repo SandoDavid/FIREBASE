@@ -13,6 +13,8 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 db.collection('recipes');
 
+
+
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
 
